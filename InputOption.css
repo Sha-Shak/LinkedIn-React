@@ -1,0 +1,20 @@
+.feed__inputOptions {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.pp .inputOption {
+	display: flex;
+	color: gray;
+	padding: 10px;
+}
+.pp .inputOption:hover {
+	background: lightgray;
+	border-radius: 10px;
+}
+.inputOption > h4 {
+	margin-top: 3px;
+	font-size: 14px;
+	margin-left: 3px;
+}

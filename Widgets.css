@@ -1,0 +1,39 @@
+.widgets {
+	position: sticky;
+	flex: 0.2;
+	top: 80px;
+	background-color: white;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	height: fit-content;
+}
+.widgets__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+.widgets__header > h2 {
+	font-size: 16x;
+	font-weight: 400;
+}
+.widgets__article {
+	padding: 10px;
+	font-size: 14px;
+	display: flex;
+	color: gray;
+}
+.widgets__articleLeft > svg {
+	font-size: 14px;
+	margin-top: 3px;
+}
+.widgets__articleRight {
+	color: rgb(30, 30, 30);
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.widgets__articleRight > h4:nth-child(2) {
+	color: gray;
+	font-size: 12px;
+}

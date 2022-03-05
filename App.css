@@ -1,0 +1,8 @@
+.app__body {
+	display: flex;
+}
+.app {
+	display: flex;
+	background: #f3f2ef;
+	flex-direction: column;
+}

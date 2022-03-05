@@ -1,0 +1,36 @@
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background: white;
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid lightgray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.header__left {
+	display: flex;
+}
+.header__search {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	height: 22px;
+	color: gray;
+	background: #eaf2fa;
+}
+.header__search > input {
+	outline: none;
+	border: none;
+	background: none;
+}
+.brand__logo {
+	object-fit: contain;
+	width: 40px;
+	margin-right: 10px;
+}
+.header__right {
+	display: flex;
+}
